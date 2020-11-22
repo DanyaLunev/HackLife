@@ -79,10 +79,11 @@
 
 .title__request {
     font-size: 35px;
+    margin-bottom: 28px;
 }
 
 .my_padding_request {
-    padding-top: 45px;
+    padding-top: 150px;
 }
 
 .my__btn__request {
@@ -99,8 +100,8 @@
 }
 
 .my__form {
-    margin-left: 23rem;
-    margin-right: 23rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
 }
 
 .my-form-control {
@@ -123,4 +124,52 @@
 
 .my-form-group {
     margin-top: 2rem;
+}
+
+.footer {
+    width: 100vw;
+    height:100%;
+    background: url(/assets/svg/footer.svg) center no-repeat;
+    background-size:cover;
+}
+
+.support {
+    width: 100px;
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my__footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem 1rem;
+}
+
+.contact_us {
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+
+.vk {
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.inst {
+    margin: 4rem;
+    margin-left: 3rem;
+}
+
+.gmail {
+    margin-left: 1rem;
+}
+
+.phone {
+    margin-left: 4rem;
+}
+
+.modal-color {
+    background-color: #0D3530;
 }
