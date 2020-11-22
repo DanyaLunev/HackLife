@@ -1,0 +1,61 @@
+.body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffff;
+}
+
+.my__container {
+    width: 100%;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height:100vh;
+    background: url(/assets/svg/header.svg) center no-repeat;
+    background-size:cover;
+}
+
+.my__color {
+    color: #ffff;
+}
+
+.my__color:hover {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.my__nav {
+    padding-top: 25px;
+}
+
+.my_padding {
+    padding-top: 200px;
+}
+
+.my__title {
+    font-size: 55px;
+    padding-bottom: 35px;
+}
+
+.my__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.my__btn {
+    margin-top: 25px;
+    color: #ffff;
+    background-color: #216260;
+    font-size: 30px;
+    border-radius: 1rem;
+}
+
+.my__btn:hover {
+    color: #ffff;
+    background-color: #0f3534;
+}
