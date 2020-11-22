@@ -8,3 +8,4 @@ Useful links:
 
 https://drive.google.com/file/d/1B6WF7t8srN3r7GgTMyEgkW8RMe513vxV/view?usp=sharing - our video
 https://www.figma.com/file/rhOMbeifMnv2L1NkoVQzbd/Hack-Life?node-id=0%3A1 - our design
+https://drive.google.com/drive/folders/1h1lydI98zao9WSdP22hAVzm8Mm5yqFsH?usp=sharing — our folder in google disk 
