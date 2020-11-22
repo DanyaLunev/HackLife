@@ -18,7 +18,7 @@
                     <a class="my__color f_nav" data-toggle="modal" href="#enter">Войти в личный кабинет</a>
                 </div>
                 <div class="text-right">
-                    <a class="my__color s_nav" href="#">Зарегестрироваться</a>
+                    <a class="my__color s_nav" data-toggle="modal" href="#registration">Зарегестрироваться</a>
                 </div>
             </nav>
             <div class="text-center my_padding">
@@ -62,7 +62,7 @@
                     </select>
                 </div>
             </form>
-            <a class="btn my__btn__request my__subtitle" href="#" role="button">Оставить заявку</a>
+            <a class="btn my__btn__request my__subtitle" data-toggle="modal" href="#form" role="button">Оставить заявку</a>
         </div>
     </div>
 
@@ -96,11 +96,84 @@
             </button>
             </div>
             <div class="modal-body">
-            ...
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Ваш Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">Мы никогда, никому не передадим вашу электронную почту.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Пароль</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Я не робот</label>
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
             <button type="button" class="btn btn-primary">Войти</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-labelledby="registrationLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content modal-color">
+            <div class="modal-header">
+            <h5 class="modal-title" id="registrationLabel">Регистрация</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Ваш Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">Мы никогда, никому не передадим вашу электронную почту.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Пароль</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Повторите пароль</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Я не робот</label>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-primary">Зарегестрироваться</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="formLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content modal-color">
+            <div class="modal-header">
+            <h5 class="modal-title" id="formLabel">Спасибо за вашу заявку!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <h3>Ваша заявка успешно отправлена!</h3>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть!</button>
             </div>
         </div>
         </div>
