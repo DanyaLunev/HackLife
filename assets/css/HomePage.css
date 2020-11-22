@@ -33,6 +33,15 @@
     padding-top: 25px;
 }
 
+.f_nav {
+    margin-left: 25px;
+}
+
+.s_nav {
+    margin-right: 25px;
+}
+
+
 .my_padding {
     padding-top: 200px;
 }
@@ -58,4 +67,38 @@
 .my__btn:hover {
     color: #ffff;
     background-color: #0f3534;
+}
+
+
+.request {
+    width: 100vw;
+    height:100vh;
+    background: url(/assets/svg/request.svg) center no-repeat;
+    background-size:cover;
+}
+
+.title__request {
+    font-size: 35px;
+}
+
+.my_padding_request {
+    padding-top: 45px;
+}
+
+.my__btn__request {
+    margin-top: 25px;
+    color: #ffff;
+    background-color: #0D3530;
+    font-size: 30px;
+    border-radius: 1rem;
+}
+
+.my__btn__request:hover {
+    color: #ffff;
+    background-color: #154b3f;
+}
+
+.my__form {
+    width: 600px;
+    color: #8AB0B1;
 }
